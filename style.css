@@ -15,15 +15,48 @@
   align-self: center;
 }
 
+.container,
+.slightlylimitwidth,
+.limitwidth,
+#innershell,
 .customPlugin>.inner {
   max-width: none;
+}
+
+.row-fluid,
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 #headerbordertop {
   height: initial;
 }
 
-.jumbotron {
+/* Hero */
+
+.hero {
   background-color: rgb(var(--blue));
   color: white;
+  padding: 3rem 0;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 7rem;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+/* Cards */
+
+.card-row {
+  display: flex;
+}
+
+.card-col {
+  margin: 2rem;
+  border: 3px solid rgb(140, 224, 170);
+  border-radius: 8px;
+  padding: 2rem;
 }
